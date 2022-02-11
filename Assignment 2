@@ -1,0 +1,35 @@
+
+sn=int(input(' enter the s1='))
+sname=input('enter the sname=')
+group=input('enter the group=')
+s1=int(input('enter the s1='))
+s2=int(input('enter the s2='))
+s3=int(input('enter the s3='))
+s4=int(input('enter the s4='))
+s5=int(input('enter the s5='))
+s6=int(input('enter the s6='))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if s1<35:
+	print('fail')
+elif s2<35:
+	print('fail')
+elif s3<35:
+	print('fail')
+elif s4<35:
+	print('fail')
+elif s5<35:
+	print('fail')
+elif s6<35:
+	print('fail')
+elif avg>91:
+		print('O-grade')
+elif avg>81:
+		print('A-grade')
+elif avg>71:
+		print('B-grade')
+elif avg>61:
+		print('C-grade')
+elif avg>35:
+		print('D-grade')
+		
