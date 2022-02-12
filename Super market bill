@@ -1,0 +1,33 @@
+cno=int(input(' enter customer no='))
+cname=int(input('enter customer name'))
+item1=100
+item2=300
+item3=600
+item4=900
+item5=1000
+item1q=int(input('enter the quantity of item1='))
+item2q=int(input('enter the quantity of item2='))
+item3q=int(input('enter the quantity of item3='))
+item4q=int(input('enter the quantity of item4='))
+item5q=int(input('enter the quantity of item5='))
+bill=(item1*item1q)+(item2*item2q)+(item3*item3q)+(item4*item14q)+(item5*item5q)
+if bill>5000:
+	dis=bill*10/100
+	tax=bill*10/100
+elif bill>3000 and bill<5000:
+	  dis=bill*8/100
+      tax=bill*10/100
+elif bill>2000 and bill<3000:
+	  dis=bill*5/100
+      tax=bill*18/100
+elif bill>1000 and bill<2000:
+  	dis=bill*3/100
+      tax=bill*18/100
+netamount=bill-dis+tax
+print('the orignal bill=',bill)
+print('the discount=',dis)
+print('the tax=',tax)
+print('yours net amount=', netamount)
+
+
+
