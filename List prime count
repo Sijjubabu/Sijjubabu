@@ -1,0 +1,16 @@
+n=int(input())
+l=[ ]
+
+for i in range(n):
+      x=int(input())
+      l.append(x)
+c=0
+for i in range(0,n):
+        
+         for j in range(2,l[i]):
+             
+             if l[i]%j==0:
+                 break
+             else:
+                 c+=1
+print(' count of prime numbers=',c)
