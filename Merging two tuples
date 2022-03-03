@@ -1,0 +1,6 @@
+n1=("sijju","daya","mahesh")      
+n2=("ganesh","anil","rocky")
+a=len(n1)
+b=len(n2)
+
+print(n1+n2)
